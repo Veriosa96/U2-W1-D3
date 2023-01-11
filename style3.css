@@ -1,0 +1,21 @@
+header {
+    background-color: lightgoldenrodyellow;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.desk img {
+   width: 450px;
+   height: 300px;
+   display: flex;
+   flex-direction: row;
+  align-items: center;
+}
+
+.para {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(184, 88, 11);
+}

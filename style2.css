@@ -1,0 +1,47 @@
+/* .nav-bar{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.button-center{
+    order: -1;
+    width: 500px;
+} */
+.nav-bar {
+    display: flex;
+    align-content: center;
+    background-color: lightgoldenrodyellow;
+    padding: 0.5% 1%;
+    color: rgba(248, 192, 87, 0.466);
+    width: 100%;
+    font-weight: bolder;
+    border-radius: 60px;
+}
+
+.bottone-laterale {
+    background-color: rgba(248, 192, 87, 0.466);
+    color: rgb(109, 64, 4);
+    width: 20%;
+    border: none;
+    border-radius: 60px;
+    font-size: 1.1em;
+    padding: 2%;
+    margin: 2%;
+    
+}
+
+.button-center {
+    background-color: rgba(248, 192, 87, 0.466);
+    color: rgb(109, 64, 4);
+    width: 20%;
+    border: none;
+    border-radius: 60px;
+    font-size: 1.3em;
+    padding: 1%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
